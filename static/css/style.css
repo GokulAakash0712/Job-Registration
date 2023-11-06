@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body
+{
+    background-image: url(../asssets/bg3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container
+{
+    border: 1px solid white;
+    height: 600px;
+    width: 800px;
+    background-color: white;
+    margin-left: 25%;
+    margin-top: 80px;
+    display: inline-flex;
+}
+.container .image img
+{
+    height: 550px;
+    width: 300px;
+    margin: 25px 30px 0px 20px;
+}
+.content h1
+{
+    font-size: 40px;
+    margin: 70px 30px 0 0;
+}
+.content h1::after
+{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 20%;
+    margin: 10px 0 30px 0;
+    background-color: #2980b9;
+}
+label
+{
+    font-size: 20px;
+    margin: 10px;
+    text-align: left;
+}
+.input
+{
+    margin: 0 0 10px 10px;
+    height: 50px;
+    width: 70%;
+    border: none;
+    border-bottom:  1px solid black;
+}
+.input::placeholder
+{
+    font-size: 16px;
+}
+.input:focus{
+    outline: none;
+    padding-bottom: 10px;
+}
+.agree{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.form p
+{
+    margin-left: 45px;
+    margin-right: 20px;
+    position: relative;
+    top: -40px;
+}
+.form p span
+{
+    font-weight: bold;
+}
+.btn p
+{
+    color: white;
+    border: 1px solid #2980b9;
+    background-color: #2980b9;
+    padding: 10px;
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 40px;
+    text-align: center;
+    line-height: 1.75;
+}
+.btn
+{
+    text-decoration: none;
+}
+.form-1
+{
+    height: 200px;
+}
+.form-1 h1,h2
+{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: white;
+}
+.form-1 h1
+{
+    color: #ff4757;
+}
+.form-1 label
+{
+    margin-left: 500px;
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+    font-style: italic;
+}
+.form-1 input
+{
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background-color: transparent;
+    width: 20%;
+    height: 20px;
+}
+.forms
+{
+    display: flex;
+    margin-top: 20px;
+}
+.forms label
+{
+    text-align: left;
+    width: 20%;
+    margin: 20px;
+    color: white;
+}
+.forms input
+{
+    text-align: left;
+    margin-top: 10px;
+    padding-right: 70px;
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    color: white;
+    font-size: 18px;
+}
+.forms p
+{
+    margin-top: 25px;
+    font-size: 18px;
+    color: white;
+}
+.forms input[type="radio"]
+{
+    margin: 10px;
+    margin-top: 25px;
+    height: 20px;
+    width: 30px;
+}
+.container-form .form-2
+{
+    width: 700px;
+    margin-left: 400px;
+}
+.forms input[type="text"], input[type="email"], input[type="tel"], input[type="date"], input[type="number"], textarea, 
+{
+    width: 300px;
+}
+.forms textarea
+{
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+    width: 240px;
+    padding-right: 70px;
+    border-radius: 10px;
+}
+.forms input[type="date"]
+{
+    color: white;
+    font-size: 17px;
+    width: 220px;
+}
+fieldset
+{
+    border: 2px solid white;
+}
+legend
+{
+    color: #ff4757;
+    font-size: 25px;
+    margin: 20px;
+    font-weight: bold;
+}
+.btn-1 p
+{
+   background-color: #ff4757;
+   position: relative;
+   left: 530px;
+   margin-bottom: 20px;
+   top: -15px;
+   width: 120px;
+}
+.sub-f{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.sub-f legend
+{
+    color:#2f3542;
+    font-weight: bold;
+}
+input[type="number"]
+{
+    height: 50px;
+    width: 220px;
+    margin-top: 20px;
+}
+select{
+    width: 310px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 17px;
+    outline: none;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.per
+{
+    margin-bottom: 50px;
+}
+.btn-2 p
+{
+    background-color: #ff4757;
+    width: 120px;
+    position: relative;
+    top: -15px;
+    right: 110px;
+}
+input[type="checkbox"]
+{
+    padding: 20px;
+    margin: 25px;
+}
+.skills
+{
+    color: white;
+}
+.forms-1 input[type="text"]
+{
+    height: 50px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid white;
+    outline: none;
+    background-color: transparent;
+    padding-left: 20px;
+    color: white;
+    font-size: 17px;
+}
+.forms-2
+{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+input[type="file"]
+{
+    height: 50px;
+}
+.container-form .form-1 img
+{
+    height: 100px;
+    width: 100px;
+    margin-left: 720px;
+    margin-top: 60px;
+}
